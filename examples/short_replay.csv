@@ -1,0 +1,8 @@
+# Tiny demo: the two SYNTH4 trades are exactly 300 ms apart.
+Timestamp,Type,Symbol,BidPrice,BidQty,AskPrice,AskQty,Price,Qty,Aggressor
+09:30:00.000,Q,SYNTH4,34.18,900,34.19,1100,,,
+09:30:00.010,T,SYNTH4,,,,,34.19,50,B
+09:30:00.150,Q,SYNTH1,101.23,175,101.25,150,,,
+09:30:00.200,T,SYNTH2,,,,,248.53,65,S
+09:30:00.300,Q,SYNTH4,34.17,800,34.18,1000,,,
+09:30:00.310,T,SYNTH4,,,,,34.18,10,S
